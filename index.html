@@ -32,7 +32,7 @@ canvas {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   z-index: 50;
-  top: 50%;
+  top: 40%;
   left: 50%;
   right: 0;
   width: 400px;
@@ -53,6 +53,29 @@ a:hover {
 a:visited {
   color: green;
 }
+#timer {
+    margin: auto;
+    text-align: center;
+    padding: 100px 60px;
+    background: #90cbf3;
+    font-family: sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    color: #020b43;
+    padding: 20px;
+    width: 700px;
+}
+
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: #020b43;
+    border-radius: 10px;
+    border: 2px solid #030d52;
+    margin: 15px;
+    color: white;
+}
 
 </style>
 
@@ -71,6 +94,7 @@ a:visited {
   Please follow <a target="_blank" href="https://www.linkedin.com/in/jeroenhermans/">Jeroen Hermans</a> on Linkedin to stay up to date with the latest information.<br/>
   If you have any questions, please contact us at: <a href="mailto:press@cloudaware.eu">press@cloudaware.eu</a><br />or leave a voicemessage at +31 (0)85 782 8878<br/><br/>
   </div>
+  <div id="timer"></div>
 </div>
 
 <script>
@@ -183,6 +207,27 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+function updateTimer() {
+  future = Date.parse("feb 14, 2024 09:00:00");
+  now = new Date();
+  diff = future - now;
+
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+
+  d = days;
+  h = hours - days * 24;
+
+  document.getElementById("timer")
+  .innerHTML = 
+  '<div>' + d + '<span>Days</span></div>' +
+  '<div>' + h + '<span>Hours</span></div>' +
+  '<br/>till first publication'
+}
+updateTimer();
+setInterval('updateTimer()', 60000);
+
 </script>
 
   </main>
