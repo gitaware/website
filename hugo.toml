@@ -2,3 +2,4 @@ baseURL = 'https://cloudaware.eu/'
 languageCode = 'en-us'
 title = 'CloudAware'
 theme = 'CloudAware'
+ 
