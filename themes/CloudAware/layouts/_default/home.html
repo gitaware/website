@@ -7,6 +7,7 @@
   Please follow <a target="_blank" href="https://www.linkedin.com/in/jeroenhermans/">Jeroen Hermans</a> on Linkedin to stay up to date with the latest information.<br/>
   If you have any questions, please contact us at: <a href="mailto:press@cloudaware.eu">press@cloudaware.eu</a><br />or leave a voicemessage at +31 (0)85 782 8878<br/><br/>
   </div>
+  <div id="timer"></div>
 </div>
 
 <script>
@@ -125,5 +126,26 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+function updateTimer() {
+  future = Date.parse("feb 14, 2024 09:00:00");
+  now = new Date();
+  diff = future - now;
+
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+
+  d = days;
+  h = hours - days * 24;
+
+  document.getElementById("timer")
+  .innerHTML = 
+  '<div>' + d + '<span>Days</span></div>' +
+  '<div>' + h + '<span>Hours</span></div>' +
+  '<br/>till first publication'
+}
+updateTimer();
+setInterval('updateTimer()', 60000);
+
 </script>
 {{ end }}
