@@ -16,7 +16,7 @@
       });
 
       for(i=1;i<11;i++){
-        number = Math.floor(Math.random() * 109) + 10;
+        number = Math.floor(Math.random() * 90) + 10;
         $('#codelist').append('<li class="codename">'+number+cities[ Math.floor(Math.random() * cities.length) ]+'</li>');
       }
       $('#codelist').on('click', 'li', function() {
