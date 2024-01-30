@@ -1,3 +1,6 @@
+Expires: 2024-12-01T23:00:01+00:00
 # If you would like to report a security issue, please contact us at:
 Contact: mailto:security@cloudaware.eu
 Contact: tel:+31857828878
+
+Preferred-Languages: nl, en, de
