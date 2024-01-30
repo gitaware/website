@@ -33,6 +33,7 @@ jobs:
         run: |
           ls -la static/*
           cp -R static/.well-known ${GITHUB_WORKSPACE}/built-site/
+          cp    static/_config.yml ${GITHUB_WORKSPACE}/built-site/
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
           git add .
