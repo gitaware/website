@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
 Canonical: https://cloudaware.eu/.well-known/security.txt
 Canonical: https://www.cloudaware.eu/.well-known/security.txt
 Expires: 2024-12-01T23:00:01+00:00
@@ -22,10 +19,3 @@ Encryption: https://cloudaware.eu/pgp.txt
 # \______/ |__/ \______/  \______/  \_______/|__/  |__/ \_____/\___/  \_______/|__/       \_______/
 
 
------BEGIN PGP SIGNATURE-----
-
-iHUEARYIAB0WIQR2HiQg/+5Wx8vY2fZS3SMwUweifAUCZblLhwAKCRBS3SMwUwei
-fCqMAQDmBxTKXRTAHlv9zaw/KmjT2hde/R5u+O9bVvqg54lfzQEA9WN1X6K6oG+A
-Ao83Z/L4jOhe5FN3NEGxKk7yFjclFgE=
-=osK8
------END PGP SIGNATURE-----
