@@ -15,3 +15,20 @@ Encryption: https://cloudaware.eu/pgp.txt
 #| $$    $$| $$| $$  | $$| $$  | $$| $$  | $$| $$  | $$| $$ | $$ | $$ /$$__  $$| $$      | $$_____/
 #|  $$$$$$/| $$|  $$$$$$/|  $$$$$$/|  $$$$$$$| $$  | $$|  $$$$$/$$$$/|  $$$$$$$| $$      |  $$$$$$$
 # \______/ |__/ \______/  \______/  \_______/|__/  |__/ \_____/\___/  \_______/|__/       \_______/
+
+-----BEGIN PGP MESSAGE-----
+
+owGbwMvMwCEWdFfZIJh9UQ3jWhbNJJ7i1OTSosySSr2SipLUnR6NrhUFmUWpxVYK
+RgZGJrqGRroGhiFGxlYGBlYGhtog0oBLWcEzTaEyv1ShPL80J0UhJzM7VaEkX6Eo
+tSC/qEQhUQFmpEJmcXFpqo5CQU5qYnGqQnJ+XklicolCabFCYokVlzOEa6WQm5iZ
+U5JvlaWXkVqUm5hX7JCck1+aklieWJSql1qKUFeSmmOlbWxoYWpuYWRhYW7BxRVQ
+lJqWWlSUmqLrk5iXXpqYDnJ3Xo5Oap5OSiqXa15yUWVBSWZ+npVCRklJQbGVvj6K
+0foF6QUgb3NxAb2koK8CBmCGAm6gD1UCUUsCANoB1BYfr6CgolKjgE8zWBauljQ7
+ICbHxMfrQ1hovkJ2PdQVMVDbFFAJqP8wWTA7MF0KEccUQ7INiYiPh/oP4VM4C90O
+hEsRdqCykFyAINB9Cg0VCEDYAZHHZTJWFoLAEqcQ9wCBPsgOqIX6EL0IHgYLxQ6I
+mD5WFRA7FOD+AHkMbB0oUPURPEwW0P9gLpI6/RisKsAALsbF1VHKwiDGwSArpshS
+Jqei8P9d2PHTN25+g5UlrEygsoOBi1MAJpJ5npFhhWf93Q89y79NeZ3QZvZJpL/2
+77qgW9en5AWVPVlQt4XpHiPDW72/nZH1trW2m1pS//N0iN9K/nTjW23za++PPhdd
+77xmAAA=
+=j/9E
+-----END PGP MESSAGE-----
