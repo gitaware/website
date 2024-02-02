@@ -24,8 +24,8 @@ Encryption: https://cloudaware.eu/pgp.txt
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQR2HiQg/+5Wx8vY2fZS3SMwUweifAUCZb14vAAKCRBS3SMwUwei
-fPn6AQC1MoktEmWcUe4nzxrxg0oqLNuOG2lG9PXiwlH2fP6wkwD+Jr5DDZp56/xb
-wAxgCWLrnJa1O/WKsS8m4A+6xtQe2Ao=
-=9vxo
+iHUEARYIAB0WIQR2HiQg/+5Wx8vY2fZS3SMwUweifAUCZb17owAKCRBS3SMwUwei
+fGQrAQCikjuqjsxYROIZfLlbx438yV92GZtSd83l1PzogFU4bgD/TguGw2f0179b
+Hgiq7VMOEYEZhCeHSPf18cOItaYeogA=
+=Ucjl
 -----END PGP SIGNATURE-----
