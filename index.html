@@ -10,14 +10,17 @@
 
 
 <script src="js/particles.min.js"></script>
+<script defer type="text/javascript" src="js/privacy-manager/config.js"></script>
+<script defer type="text/javascript" src="js/privacy-manager/klaro.js"></script>
 
 <script>
   var _paq = window._paq = window._paq || [];
    
+  _paq.push(['requireCookieConsent']);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//app.cloudaware.eu/cloudtr/";
+    var u="https://app.cloudaware.eu/cloudtr/";
     _paq.push(['setTrackerUrl', u+'cloudtr']);
     _paq.push(['setSiteId', '1']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
@@ -44,6 +47,7 @@
   </div>
 </div>
 <script src="js/countdown.js"></script>
+
 
 </body>
 </html>
