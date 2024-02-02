@@ -150,7 +150,7 @@ var klaroConfig = {
             },
         },
         nl: {
-            privacyPolicyUrl: '/privacy',
+            privacyPolicyUrl: '/privacybeleid',
             acceptAll: "Accepteer alles",
             acceptSelected: "Geselecteerde",
             close: "Sluit",
