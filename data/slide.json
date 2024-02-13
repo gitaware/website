@@ -1,0 +1,13 @@
+[
+  {
+    "title":  "Publicaties Yealink",
+    "link":   "yealink",
+    "image":  "img/slide/yealink_phone.jpg",
+    "color":  "text-white"
+  },
+  {
+    "title": "CloudAware technical consultancy.",
+    "link":   "about",
+    "image": "img/slide/slide01.jpg"
+  }
+]
