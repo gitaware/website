@@ -2,7 +2,7 @@ name: Publish to GH Pages
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true
 
@@ -37,8 +37,8 @@ jobs:
           npm install
 
       - name: Checkout destination
-        uses: actions/checkout@v3
-        if: github.ref == 'refs/heads/master'
+        uses: actions/checkout@v4
+        if: github.ref == 'refs/heads/main'
         with:
           ref: public
           path: built-site
@@ -51,7 +51,7 @@ jobs:
         run: ${RUNNER_TEMP}/hugo
 
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run: |
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
