@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cloudaware.eu/cookieverklaring/</loc>
+    <loc>https://trideeindhoven.github.io/website/support/</loc>
+    <lastmod>2023-01-01T12:33:45+10:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/tags/lydis/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/tags/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/tags/videoboodschap/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/yealink/video_boodschap/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/tags/yealink/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/yealink/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/about/</loc>
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cloudaware.eu/privacybeleid/</loc>
+    <loc>https://trideeindhoven.github.io/website/cookieverklaring/</loc>
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cloudaware.eu/</loc>
+    <loc>https://trideeindhoven.github.io/website/privacybeleid/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cloudaware.eu/categories/</loc>
+    <loc>https://trideeindhoven.github.io/website/categories/</loc>
   </url><url>
-    <loc>https://cloudaware.eu/tags/</loc>
+    <loc>https://trideeindhoven.github.io/website/contact/</loc>
+  </url><url>
+    <loc>https://trideeindhoven.github.io/website/tags/security/</loc>
   </url>
 </urlset>
