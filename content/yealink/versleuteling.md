@@ -91,7 +91,7 @@ Nu email ik opnieuw met de "support manager" welke nu de "Technisch directeur" v
 denk dat de versleuteling ernstig stuk is en dat Lydis dit waarschijnlijk met grote spoed aan Yealink moet gaan melden.
 Ook vraag ik hem op 27 september 2022 om mij een versleuteld bestand te sturen, zodat ik kan zien of mijn 
 decryptie-tool inderdaad werkt. Op 30 september reageert hij terug met een 
-{{< a_blank "versleuteld bestand voor een T48S" "yealink/y000000000065_1.cfg" >}}. Ik reageer
+{{< a_blank "versleuteld bestand voor een T48S" "y000000000065_1.cfg" >}}. Ik reageer
 dezelfde dag terug:  
 {{< quote cloudemail >}}Mijn vermoeden is dus correct. De bestanden zijn nog steeds goed leesbaar, wellicht wel beter.  
 Om meteen even met de deur in huis te vallen:  
@@ -107,7 +107,7 @@ Laten we hier volgende week contact over hebben, want de implicaties hiervan zij
 
 De technisch directeur beseft waarschijnlijk toch wel dat dit niet het standaard "ik ben een 1337 h4x0r" mailtje is
 en hij reageert die maandag meteen terug met *"Zou je bijgevoegd bestand ook kunnen bekijken?"* Bij het mailtje is een 
-{{< a_blank "nieuw versleuteld bestand" "yealink/y000000000065_2.cfg" >}} toegevoegd. 
+{{< a_blank "nieuw versleuteld bestand" "y000000000065_2.cfg" >}} toegevoegd. 
 Vreemd genoeg struikelt mijn ontsleutel-software over dit bestand. Maar een korte
 zoektocht naar de reden hiervan laat zien dat er een {{< a_blank "line-ending verschil" "https://en.wikipedia.org/wiki/Newline" >}}
 is met het vorige bestand. De reden hiervan kunnen we natuurlijk alleen maar over speculeren, maar het neemt niet weg 
@@ -138,7 +138,7 @@ Hij reageert binnen 10 minuten met een (heel correct)
 en later die dag met:
 {{< quote cloudemail >}}Zou je bijgevoegd bestand ook kunnen testen.{{< /quote >}}
 
-Dit keer levert hij echter {{< a_blank "een bestand" "yealink/y000000000065_3.cfg" >}} waar het "key_ciphertext" deel helemaal 
+Dit keer levert hij echter {{< a_blank "een bestand" "y000000000065_3.cfg" >}} waar het "key_ciphertext" deel helemaal 
 is verdwenen. Ik vraag hem waarom mijn 
 telefoon dit bestand niet kan gebruiken als geldig provisioniong document en hij geeft aan dat zij wat andere 
 instellingen in de provisioningtool hebben gebruikt. Als ik dan vraag of hij een lege sleutel oid heeft gebruikt omdat
