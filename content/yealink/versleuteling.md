@@ -140,7 +140,7 @@ en later die dag met:
 
 Dit keer levert hij echter {{< a_blank "een bestand" "../y000000000065_3.cfg" >}} waar het "key_ciphertext" deel helemaal 
 is verdwenen. Ik vraag hem waarom mijn 
-telefoon dit bestand niet kan gebruiken als geldig provisioniong document en hij geeft aan dat zij wat andere 
+telefoon dit bestand niet kan gebruiken als geldig provisioning document en hij geeft aan dat zij wat andere 
 instellingen in de provisioningtool hebben gebruikt. Als ik dan vraag of hij een lege sleutel oid heeft gebruikt omdat
 er geen (versleutelde) AES sleutel in het document staat reageert hij met 
 {{< quote cloudemail >}}Waarom de key_ciphertext in het bestand dan leeg is, is ons nu zo even niet bekend.{{< /quote >}}
@@ -176,7 +176,7 @@ van het logo van Linux, de penguin Tux, met ECB. Deze visuele demonstratie voegd
 over {{< a_blank "Block cipher mode of operation" "https://en.wikipedia.org/w/index.php?title=Block_cipher_mode_of_operation&diff=prev&oldid=2191923&ref=words.filippo.io" >}}. Dat betekent dus dat op het moment van
 schrijven deze modus van versleuteling al 20 jaar als matig veilig beschouwd wordt. Als we naar de 
 {{< a_blank "lijst van open source software" "https://www.yealink.com/website-service/download/offer-source-of-open-source-software.pdf" >}}
-{{< a_blank "mirror" "yealink/Offer Source of Open Source Software.pdf" >}} kijken die Yealink gebruikt in
+{{< a_blank "mirror" "../Offer Source of Open Source Software.pdf" >}} kijken die Yealink gebruikt in
 hun producten, dan zou het bijzonder eenvoudig zijn om i.p.v. AES-ECB  AES-CBC te gebruiken. Deze vorm van versleuteling
 gebruikt de ciphertext van een voorgaand block als onderdeel van de sleutel van het volgende block (technisch: XOR met de 
 sleutel).  
@@ -211,24 +211,24 @@ Ik denk dat dit een goed moment is om even samen te vatten:
 - Ook de nieuwe "RSA" versleuteling van Yealink was hiermee een uitgebreide manier om bestanden plaintext aan te bieden.
 
 Yealink en Lydis {{< a_blank "beweren achteraf" "https://portal.lydis.com/download/lydis/ftm/Article%20FTM-Yealink-160923-NL-Lydis_detail_reaction_short-v2.4.pdf" >}}
-{{< a_blank "mirror" "yealink/Article FTM-Yealink-160923-NL-Lydis_detail_reaction_short-v2.4.pdf" >}} dat "de 
+{{< a_blank "mirror" "../Article FTM-Yealink-160923-NL-Lydis_detail_reaction_short-v2.4.pdf" >}} dat "de 
 encryptietool niet wordt gebruikt door providers/carriers/professionals". Bovendien geeft Yealink op 24 februari 2023 
 in een email aan:
 {{< quote cloudquote >}}If the customer uses the RSA tool , the default key is only for demo. In the actual application, most IT with security awareness will not use the demo key provided by the manufacturer{{< /quote >}}
 Verder geeft Lydis op hun 
 {{< a_blank "security FAQ" "https://www.lydis.nl/over-ons/yealink-security-faq#netwerk" >}}
-{{< a_blank "mirror" "yealink/20240217_Yealink FAQ Security Lydis.pdf" >}} aan dat
+{{< a_blank "mirror" "../20240217_Yealink FAQ Security Lydis.pdf" >}} aan dat
 {{< quote cloudquote >}}In de VoIP-industrie werken professionals die de platforms en beveiliging beheren. Ze weten dat standaard pin- of defaults codes niet gebruikt moeten worden, net zoals bij het wijzigen van de pincode van een smartphone.{{< /quote >}}
 
 Dat is wel heel erg interessant aangezien het juist deze gelekte RSA sleutel is die de technisch directeur van Lydis gebruikt 
-om mij {{< a_blank "bestand1" "yealink/y000000000065_1.cfg" >}} en {{< a_blank "bestand2" "yealink/y000000000065_2.cfg" >}} 
+om mij {{< a_blank "bestand1" "../y000000000065_1.cfg" >}} en {{< a_blank "bestand2" "../y000000000065_2.cfg" >}} 
 toe te zenden met als doel om te laten zien hoe veilig het systeem is.
 
 # Teams
 Maar zo beweert Lydis. Er is is niets aan de hand! De publicaties van Follow The Money en De Tijd bevatten "feitelijke 
 onjuistheden". In het bijzonder de "Teams" gecertificeerde apparatuur "is van deze kwesties volledig uitgesloten". Deze 
 worden namelijk "{{< a_blank "compleet door Microsoft beveiligd" "https://www.lydis.nl/over-ons/lydis-statement-2" >}}"
-{{< a_blank "mirror" "yealink/20240217_Lydis reactie op FTM & De Tijd Lydis.pdf" >}}  
+{{< a_blank "mirror" "../20240217_Lydis reactie op FTM & De Tijd Lydis.pdf" >}}  
 Dat is een interessante uitspraak. Maar is dit dan ook wel zo? De speurneuzen van Follow The Money nemen contact op met 
 Microsoft over deze claim. Microsoft geeft aan hier goed naar te gaan kijken en na een week komen zij op 28 augustus 2023
 met het volgende antwoord:
