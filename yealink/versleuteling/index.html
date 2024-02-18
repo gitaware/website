@@ -169,8 +169,7 @@ natuurlijk niet: Als ik deze gegevens had, wie dan nog meer?</p>
 <p>Dus ik schrijf een email aan de Nederlandse distributeur van Yealink, Lydis, op 28 juli 2022:
 
 <blockquote class="cloudemail">
-We hebben de firmware van Lydis bekeken en we zien dat de provisioning sleutel zelf versleuteld is met private key 
-EKs35XacP6eybA25 Aangezien deze hard coded is, lijkt ons dit een reëel risico. Welke mogelijke oplossing kan Lydis (samen met Yealink?) ons bieden om dit risico weg te nemen?
+We hebben de firmware van Lydis bekeken en we zien dat de provisioning sleutel zelf versleuteld is met private key <br/>EKs35XacP6eybA25 Aangezien deze hard coded is, lijkt ons dit een reëel risico. Welke mogelijke oplossing kan Lydis (samen met Yealink?) ons bieden om dit risico weg te nemen?
 </blockquote>
 </p>
 <p>Ik krijg een dag later een antwoord van een &ldquo;support manager&rdquo; van Lydis:
@@ -244,17 +243,7 @@ decryptie-tool inderdaad werkt. Op 30 september reageert hij terug met een
 dezelfde dag terug:<br>
 
 <blockquote class="cloudemail">
-Mijn vermoeden is dus correct. De bestanden zijn nog steeds goed leesbaar, wellicht wel beter.  
-Om meteen even met de deur in huis te vallen:  
-De AES sleutel is: 33j503whh7bPK0zz0Kq3KwP00wKqbW3h  
-
-Het config bestand is:  
-#!version:1.0.0.1  
-  
-static.lang.gui = German  
-lang.gui = German  
-  
-Laten we hier volgende week contact over hebben, want de implicaties hiervan zijn natuurlijk verstrekkend.
+Mijn vermoeden is dus correct. De bestanden zijn nog steeds goed leesbaar, wellicht wel beter.  <br/>Om meteen even met de deur in huis te vallen:  <br/>De AES sleutel is: 33j503whh7bPK0zz0Kq3KwP00wKqbW3h  <br/><br/>Het config bestand is:  <br/>#!version:1.0.0.1  <br/>  <br/>static.lang.gui = German  <br/>lang.gui = German  <br/>  <br/>Laten we hier volgende week contact over hebben, want de implicaties hiervan zijn natuurlijk verstrekkend.
 </blockquote>
 </p>
 <p>De technisch directeur beseft waarschijnlijk toch wel dat dit niet het standaard &ldquo;ik ben een 1337 h4x0r&rdquo; mailtje is
@@ -270,19 +259,7 @@ is met het vorige bestand. De reden hiervan kunnen we natuurlijk alleen maar ove
 dat ik diezelfde ochtend hem een email stuur:<br>
 
 <blockquote class="cloudemail">
-Om maar met de deur in huis te vallen:  
-  
-[jhermans@localhost yealink-encryption]$ ./yealinkdecryption.py -i y000000000065.cfg  
-INFO: using RSA mode  
-AES key found: 303wlbKBenhhHwpFzzj00QfwhwzbyKhp  
-Decrypting provisiong file...  
-  
-#!version:1.0.0.1  
-static.lang.gui = French  
-lang.gui = French  
-  
-Dit is natuurlijk zeer slecht nieuws en zal ook zeer zeker in onze publicatie worden getoond. Ik wil Lydis nogmaals de kans tot wederhoor bieden. Als jullie hier gebruik van willen maken stel ik voor dat we ook mensen van Yealink in deze meeting plaatsen, want dit is een wereldwijd probleem.
-Ik hoor graag een voorstel voor een datum/tijd wanneer deze meeting kan plaatsvinden indien jullie gebruik willen maken van deze mogelijkheid. Ik vind het ook geen probleem om hiervoor langs te komen op jullie kantoor.
+Om maar met de deur in huis te vallen:  <br/>  <br/>[jhermans@localhost yealink-encryption]$ ./yealinkdecryption.py -i y000000000065.cfg  <br/>INFO: using RSA mode  <br/>AES key found: 303wlbKBenhhHwpFzzj00QfwhwzbyKhp  <br/>Decrypting provisiong file...  <br/>  <br/>#!version:1.0.0.1  <br/>static.lang.gui = French  <br/>lang.gui = French  <br/>  <br/>Dit is natuurlijk zeer slecht nieuws en zal ook zeer zeker in onze publicatie worden getoond. Ik wil Lydis nogmaals de kans tot wederhoor bieden. Als jullie hier gebruik van willen maken stel ik voor dat we ook mensen van Yealink in deze meeting plaatsen, want dit is een wereldwijd probleem.<br/>Ik hoor graag een voorstel voor een datum/tijd wanneer deze meeting kan plaatsvinden indien jullie gebruik willen maken van deze mogelijkheid. Ik vind het ook geen probleem om hiervoor langs te komen op jullie kantoor.
 </blockquote>
 </p>
 <p>Nu is het natuurlijk al opzienbarend dat een simpel python script deze versleuteling in 100ms kan &ldquo;breken&rdquo;, maar de afsluiting van
@@ -364,14 +341,7 @@ gebruikt.<br>
 Daarna heb ik het bestand (zonder header) versleuteld op dezelfde manier als Yealink dat ook doet (met openssl):
 
 <blockquote class="cloudemail">
-#Eerst sla ik de afbeeldingsheader op:
-head -n 4 yealink.ppm > header.txt
-#Vervolgens sla ik de body van de afbeelding op:
-tail -n +5 yealink.ppm > body.bin
-# Vervolgens versleutel ik het bestand:
-openssl enc -aes-128-ecb -nosalt -pass pass:"JEROEN" -in body.bin -out body.ecb.bin
-# ...waarna ik de header weer bovenaan het versleutelde bestand plaats zodat het een geldig afbeeldingsformaat is:
-cat header.txt body.ecb.bin > yealink.ecb.ppm
+#Eerst sla ik de afbeeldingsheader op:<br/>head -n 4 yealink.ppm > header.txt<br/>#Vervolgens sla ik de body van de afbeelding op:<br/>tail -n +5 yealink.ppm > body.bin<br/># Vervolgens versleutel ik het bestand:<br/>openssl enc -aes-128-ecb -nosalt -pass pass:"JEROEN" -in body.bin -out body.ecb.bin<br/># ...waarna ik de header weer bovenaan het versleutelde bestand plaats zodat het een geldig afbeeldingsformaat is:<br/>cat header.txt body.ecb.bin > yealink.ecb.ppm
 </blockquote>
 </p>
 <p>De output van het bestand heb ik hieronder weergegeven.
@@ -436,9 +406,7 @@ Microsoft over deze claim. Microsoft geeft aan hier goed naar te gaan kijken en 
 met het volgende antwoord:</p>
 
 <blockquote class="cloudquote">
-We hebben intern een check-in gedaan en ik kom graag terug op jouw vraagstuk:
- 
-De gecertificeerde devices worden getest op het leveren van audio- en video-ervaringen met een hoge kwaliteit. In onze specificatiesgeven wij aan dat de fabrikanten van de devices verantwoordelijk zijn voor de beveiliging van de devices, de software en de firmware.
+We hebben intern een check-in gedaan en ik kom graag terug op jouw vraagstuk:<br/> <br/>De gecertificeerde devices worden getest op het leveren van audio- en video-ervaringen met een hoge kwaliteit. In onze specificatiesgeven wij aan dat de fabrikanten van de devices verantwoordelijk zijn voor de beveiliging van de devices, de software en de firmware.
 </blockquote>
 
 <p>Dat is een heel ander verhaal dan door Lydis en Yealink naar buiten gebracht wordt. En welke andere claims zijn er dan
