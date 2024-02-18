@@ -91,7 +91,7 @@ Nu email ik opnieuw met de "support manager" welke nu de "Technisch directeur" v
 denk dat de versleuteling ernstig stuk is en dat Lydis dit waarschijnlijk met grote spoed aan Yealink moet gaan melden.
 Ook vraag ik hem op 27 september 2022 om mij een versleuteld bestand te sturen, zodat ik kan zien of mijn 
 decryptie-tool inderdaad werkt. Op 30 september reageert hij terug met een 
-{{< a_blank "versleuteld bestand voor een T48S" "y000000000065_1.cfg" >}}. Ik reageer
+{{< a_blank "versleuteld bestand voor een T48S" "{{< static "/yealink/y000000000065_1.cfg" >}}" >}}. Ik reageer
 dezelfde dag terug:  
 {{< quote cloudemail >}}Mijn vermoeden is dus correct. De bestanden zijn nog steeds goed leesbaar, wellicht wel beter.  
 Om meteen even met de deur in huis te vallen:  
