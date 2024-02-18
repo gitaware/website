@@ -117,7 +117,7 @@ dat ik diezelfde ochtend hem een email stuur:
 [jhermans@localhost yealink-encryption]$ ./yealinkdecryption.py -i y000000000065.cfg  
 INFO: using RSA mode  
 AES key found: 303wlbKBenhhHwpFzzj00QfwhwzbyKhp  
-Decrypting provisiong file...  
+Decrypting provisioning file...  
   
 #!version:1.0.0.1  
 static.lang.gui = French  
