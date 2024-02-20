@@ -184,7 +184,7 @@ Maar laten we uitgaan van het positieve en laten we de handleiding van de Yealin
 {{< a_blank "deze pagina" "https://support.yealink.com/en/portal/docList?archiveType=document&productCode=9f6c48bb889a54fb" >}} 
 , waarna we kunnen doorklikken naar de 
 "{{< a_blank "Administrator’s Guide for SIP-T2 & T3 & T4 & T5 & CP92X IP Phones V86.5" "https://support.yealink.com/en/portal/docDetail?documentCode=a2580460e37898bb" >}}"
-"{{< a_blank "mirror" "yealink/Administrator’s Guide for SIP-T2 & T3 & T4 & T5 & CP92X IP Phones V86.5.pdf" >}}"  
+{{< a_blank "mirror" "yealink/Administrator’s Guide for SIP-T2 & T3 & T4 & T5 & CP92X IP Phones V86.5.pdf" >}}  
 
 Als we een beetje gaan zoeken in dit technische document vinden we de volgende pagina:  
 {{< img "Yealink Local Sip Port admin guide" "img/yealink/screenshot_local_sip_port_admin_guide.png" >}}
