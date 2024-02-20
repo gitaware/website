@@ -76,11 +76,7 @@ We DISabled Direct IP Call (Features->General Information->Allow IP Call->Disabl
 But when we did a portscan of the phone we could still see port 5060 open. It seems that the port is open whether you have Direct IP Call enabled or not.{{< /quote >}}  
 Ik heb een groot deel van het antwoord van Yealink hier woord voor woord geciteerd, omdat het een mooi inzicht geeft
 in hoe lastig de communicatie soms was:  
-{{< quote cloudemail >}}The IP Call feature use 5060 port is following the SIP RFC standard, but 
-disable IP Call feature can’t block 5060, because 5060 port is also used in UDP registering and Calling. If you 
-check the major brand like Poly(Polycom) and Cisco, they also have the same mechanism. Because open 5060 port doesn’t 
-bring security issue. According to RFC standard, 5060 port is standard SIP port, the 5060 port will not handling a 
-non-sip message. {{< /quote >}}  
+{{< quote cloudemail >}}The IP Call feature use 5060 port is following the SIP RFC standard, but disable IP Call feature can’t block 5060, because 5060 port is also used in UDP registering and Calling. If you check the major brand like Poly(Polycom) and Cisco, they also have the same mechanism. Because open 5060 port doesn’t bring security issue. According to RFC standard, 5060 port is standard SIP port, the 5060 port will not handling a non-sip message. {{< /quote >}}  
 
 Wat Yealink hier beweert is eigenlijk dat als ik met mijn tablet naar facebook wil gaan (poort 443), dat ik dan eerst
 zelf een webserver moet installeren op mijn tablet.  
