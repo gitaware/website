@@ -340,7 +340,28 @@ het werk van iedereen in de beveiligings industrie moeilijker maakt. Er is nu ee
 aanwezig in het netwerk. We hebben eerder gezien dat er normaal sprake is van een nette toewijzing door IANA, maar dat
 is hier zeker niet het geval.<br>
 Tot slot is het gevaarlijk omdat dit niet in de documentatie correct vermeld is. Een systeembeheerder kan (begrijpelijk)
-aannemen dat het probleem is afgedekt terwijl dit niet het geval is.</p>
+aannemen dat het probleem is afgedekt terwijl dit niet het geval is.<br>
+Als we namelijk in de web interface kijken naar de documentatie van deze functionaliteit, dan zien we:<br>
+<img src="https://cloudaware.eu/img/yealink/screenshot_yealink_local_sip_port.png" alt="Yealink Local Sip Port">
+<br>
+Dit suggereert aan de beheerder dat het helemaal niet mogelijk is om een &ldquo;Local SIP Port&rdquo; lager dan 1024 te kiezen, laat
+staan &ldquo;0&rdquo;.</p>
+<p>Maar laten we uitgaan van het positieve en laten we de handleiding van de Yealink T48U er bij nemen. Deze is te vinden op
+
+<a target="_blank" href="https://support.yealink.com/en/portal/docList?archiveType=document&amp;productCode=9f6c48bb889a54fb">deze pagina</a> <i class="fa fa-external-link"></i>
+
+, waarna we kunnen doorklikken naar de
+&ldquo;
+<a target="_blank" href="https://support.yealink.com/en/portal/docDetail?documentCode=a2580460e37898bb">Administrator’s Guide for SIP-T2 &amp; T3 &amp; T4 &amp; T5 &amp; CP92X IP Phones V86.5</a> <i class="fa fa-external-link"></i>
+&rdquo;
+&ldquo;
+<a target="_blank" href="https://cloudaware.eu/yealink/Administrator%E2%80%99s%20Guide%20for%20SIP-T2%20&amp;%20T3%20&amp;%20T4%20&amp;%20T5%20&amp;%20CP92X%20IP%20Phones%20V86.5.pdf">mirror</a> <i class="fa fa-external-link"></i>
+&rdquo;</p>
+<p>Als we een beetje gaan zoeken in dit technische document vinden we de volgende pagina:<br>
+<img src="https://cloudaware.eu/img/yealink/screenshot_local_sip_port_admin_guide.png" alt="Yealink Local Sip Port admin guide">
+
+In deze admin guide wordt WEL vermeld dat &ldquo;0&rdquo; een geldige waarde is, maar het is mij in elk geval uit deze documentatie
+niet duidelijk wat er nou precies gebeurt als je de sip.listen_port op &ldquo;0&rdquo; instelt. Gelukkig weten we dat nu wel.</p>
 <p>Maar wat gaat er nou eigenlijk achter deze poort, deze &ldquo;hoteldeur&rdquo;, schuil? Ook hier heb ik naar gekeken. Dit was o.a.
 mogelijk omdat het gelukt is om de firmware van Yealink te ontsleutelen (hierover later een ander artikel).
 Als we kijken naar de
