@@ -8,6 +8,12 @@ tags = [
 ]
 image = "img/yealink/pexels-harrison-haines-2869565.jpg"
 +++
+I have added international translations of the articles using google translate:  
+
+[{{< img alt="EN" src="img/uxwing/united-kingdom-flag-icon.svg" style="margin-top:5px;margin-bottom:5px;width:50px;">}}](https://cloudaware-eu.translate.goog/yealink/open_poort/?_x_tr_sl=nl&_x_tr_tl=en&_x_tr_hl=nl&_x_tr_pto=wapp)
+[{{< img alt="DE" src="img/uxwing/germany-flag-icon.svg" style="margin-top:5px;margin-bottom:5px;width:50px;">}}](https://cloudaware-eu.translate.goog/yealink/open_poort/?_x_tr_sl=nl&_x_tr_tl=de&_x_tr_hl=nl&_x_tr_pto=wapp)
+[{{< img alt="FR" src="img/uxwing/france-flag-icon.svg" style="margin-top:5px;margin-bottom:5px;width:50px;">}}](https://cloudaware-eu.translate.goog/yealink/open_poort/?_x_tr_sl=nl&_x_tr_tl=fr&_x_tr_hl=nl&_x_tr_pto=wapp)  
+
 Tijdens het onderzoek viel het op dat er een netwerkpoort open stond op Yealink devices. Het open staan van deze poort
 kon ik niet verklaren en dus werden ook hier vragen over gesteld aan Yealink.
 <!--more-->
@@ -175,21 +181,6 @@ aanwezig in het netwerk. We hebben eerder gezien dat er normaal sprake is van ee
 is hier zeker niet het geval.  
 Tot slot is het gevaarlijk omdat dit niet in de documentatie correct vermeld is. Een systeembeheerder kan (begrijpelijk)
 aannemen dat het probleem is afgedekt terwijl dit niet het geval is.  
-Als we namelijk in de web interface kijken naar de documentatie van deze functionaliteit, dan zien we:  
-{{< img "Yealink Local Sip Port" "img/yealink/screenshot_yealink_local_sip_port.png" >}}  
-Dit suggereert aan de beheerder dat het helemaal niet mogelijk is om een "Local SIP Port" lager dan 1024 te kiezen, laat
-staan "0".  
-
-Maar laten we uitgaan van het positieve en laten we de handleiding van de Yealink T48U er bij nemen. Deze is te vinden op 
-{{< a_blank "deze pagina" "https://support.yealink.com/en/portal/docList?archiveType=document&productCode=9f6c48bb889a54fb" >}} 
-, waarna we kunnen doorklikken naar de 
-"{{< a_blank "Administrator’s Guide for SIP-T2 & T3 & T4 & T5 & CP92X IP Phones V86.5" "https://support.yealink.com/en/portal/docDetail?documentCode=a2580460e37898bb" >}}"
-{{< a_blank "mirror" "yealink/Administrator’s Guide for SIP-T2 & T3 & T4 & T5 & CP92X IP Phones V86.5.pdf" >}}  
-
-Als we een beetje gaan zoeken in dit technische document vinden we de volgende pagina:  
-{{< img "Yealink Local Sip Port admin guide" "img/yealink/screenshot_local_sip_port_admin_guide.png" >}}
-In deze admin guide wordt WEL vermeld dat "0" een geldige waarde is, maar het is mij in elk geval uit deze documentatie 
-niet duidelijk wat er nou precies gebeurt als je de sip.listen_port op "0" instelt. Gelukkig weten we dat nu wel.  
 
 Maar wat gaat er nou eigenlijk achter deze poort, deze "hoteldeur", schuil? Ook hier heb ik naar gekeken. Dit was o.a. 
 mogelijk omdat het gelukt is om de firmware van Yealink te ontsleutelen (hierover later een ander artikel). 
@@ -207,3 +198,5 @@ Vrijdag komt de volgende publicatie. Dit keer is het een minder technisch artike
 en regelgeving die bij dit onderzoek hoort.  
 
 Tot snel!
+
+[Naar het volgende artikel]({{< ref "avg_gdpr" >}})
