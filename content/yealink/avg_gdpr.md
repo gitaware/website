@@ -1,24 +1,24 @@
 +++
 author = "Jeroen Hermans"
 title = "AVG / GDPR"
-date = "2024-01-05"
+date = "2024-02-16"
 description = "AVG / GDPR"
 tags = [
     "AVG", "GDPR", "Lydis", "Yealink"
 ]
 image = "img/yealink/pexels-marco-13153479.jpg"
 +++
+Zowel Yealink als Lydis gaan er prat op dat ze 100% voldoen aan de 
+{{< a_blank "Algemene Verordening Gegevensbescherming (AVG)" "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=celex%3A32016R0679" >}} wetgeving. 
+Sterker nog: ze claimen hier zelfs een "General Data Protection Regulation (GDPR) certificate" (Engelse benaming voor AVG) 
+voor te bezitten van TÜV Rheinland.
+<!--more-->
 I have added international translations of the articles using google translate:  
 
 [{{< img alt="EN" src="img/uxwing/united-kingdom-flag-icon.svg" style="margin-top:5px;margin-bottom:5px;width:50px;">}}](https://cloudaware-eu.translate.goog/yealink/avg_gdpr/?_x_tr_sl=nl&_x_tr_tl=en&_x_tr_hl=nl&_x_tr_pto=wapp)
 [{{< img alt="DE" src="img/uxwing/germany-flag-icon.svg" style="margin-top:5px;margin-bottom:5px;width:50px;">}}](https://cloudaware-eu.translate.goog/yealink/avg_gdpr/?_x_tr_sl=nl&_x_tr_tl=de&_x_tr_hl=nl&_x_tr_pto=wapp)
 [{{< img alt="FR" src="img/uxwing/france-flag-icon.svg" style="margin-top:5px;margin-bottom:5px;width:50px;">}}](https://cloudaware-eu.translate.goog/yealink/avg_gdpr/?_x_tr_sl=nl&_x_tr_tl=fr&_x_tr_hl=nl&_x_tr_pto=wapp)  
 
-Zowel Yealink als Lydis gaan er prat op dat ze 100% voldoen aan de 
-{{< a_blank "Algemene Verordening Gegevensbescherming (AVG)" "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=celex%3A32016R0679" >}} wetgeving. 
-Sterker nog: ze claimen hier zelfs een "General Data Protection Regulation (GDPR) certificate" (Engelse benaming voor AVG) 
-voor te bezitten van TÜV Rheinland.
-<!--more-->
 Het is tijdens een van de dinertjes aan de keukentafel met de experts die hebben meegewerkt aan het 
 {{< a_blank "FTM artikel" "https://www.ftm.nl/artikelen/yealink-apparatuur-overheid-vitale-sectoren" >}} wanneer ik het AVG/GDPR
 certificaat ter sprake breng. Dit certificaat {{< a_blank "wordt" "https://www.lydis.nl/yealink-beveiliging-maatregelen" >}}{{< a_blank "mirror" "https://web.archive.org/web/20240217145316/https://www.lydis.nl/yealink-beveiliging-maatregelen" >}} {{< a_blank "door" "https://www.lydis.nl/oplossingen/yealink-security" >}}{{< a_blank "mirror" "https://web.archive.org/web/20240221215348/https://www.lydis.nl/oplossingen/yealink-security" >}} {{< a_blank "Lydis" "https://www.lydis.nl/support/yealink-security-en-opvolging-copy-2" >}}{{< a_blank "mirror" "https://web.archive.org/web/20240117145700/https://www.lydis.nl/support/yealink-security-en-opvolging-copy-2" >}} {{< a_blank "en" "https://www.yealink.com/en/trust-center/privacy" >}}{{< a_blank "mirror" "https://web.archive.org/web/20240221215242/https://www.yealink.com/en/trust-center/privacy" >}}
@@ -276,7 +276,7 @@ in het bijzonder de volgende zin is van belang:
 {{< quote cloudemail >}}With law enforcement officials, government authorities, or other third parties as necessary to comply with legal process or meet national security requirements; protect the rights, property, or safety of Yealink, our business partners, you, or others; or as otherwise required by applicable law.{{< /quote >}}
 
 Het moge duidelijk zijn dat dit een vreselijk brede omschrijving is, waar vrijwel alles onder kan vallen.  
-Dit is van belang omdat er steeds vaker zorgen zijn over de Chinese compiance regels waar Chinese bedrijven aan moeten voldoen.
+Dit is van belang omdat er steeds vaker zorgen zijn over de Chinese compliance regels waar Chinese bedrijven aan moeten voldoen.
 Een belangrijke quote die ik hier kan gebruiken is die van De Staatsveiligheid, de nationale veiligheidsdienst van België 
 aan het zakenkrant *De Tijd*.  
 Zij zeggen hier over:

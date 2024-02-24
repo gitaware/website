@@ -1,7 +1,7 @@
 +++
 author = "Jeroen Hermans"
 title = "Inleiding"
-date = "2024-01-01"
+date = "2024-02-13"
 description = "Inleiding"
 tags = [
     "inleiding", "Lydis", "Yealink", "AKD"

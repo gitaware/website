@@ -1,7 +1,7 @@
 +++
 author = "Jeroen Hermans"
 title = "Open poort"
-date = "2024-01-04"
+date = "2024-02-15"
 description = "Open poort"
 tags = [
     "poort", "5060", "RFC", "Lydis", "Yealink"
