@@ -6,12 +6,19 @@
     <description>Recent content in Yealink on CloudAware Technical Consultancy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl</language>
-    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cloudaware.eu/tags/yealink/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firmware</title>
+      <link>https://cloudaware.eu/yealink/firmware/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://cloudaware.eu/yealink/firmware/</guid>
+      <description>&lt;p&gt;In april 2023 brengt zowel Lydis als Yealink een redelijk cryptische memo naar buiten. Het is niet eenvoudig in te zien&#xA;wat de strekking van deze memo is, maar wat op dat moment nog niemand weet is dat de oorzaak van deze memo ikzelf ben&#xA;en een direct gevolg van mijn samenwerking met Yealink en Lydis.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Yealink (Europe) Network Technology B.V.</title>
       <link>https://cloudaware.eu/yealink/yealink_europe/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://cloudaware.eu/yealink/yealink_europe/</guid>
       <description>&lt;p&gt;Als ik het tot nu toe had over Yealink, dan had ik het over Yealink (Xiamen) Network Technology Co., Ltd. in Xiamen, China.&#xA;Maar wat schetst mijn verbazing als ik een eenvoudige zoekopdracht bij de Kamer van Koophandel doe? Er bestaat een Nederlandse&#xA;B.V. van Yealink. Interessant genoeg om ook in te duiken.&lt;/p&gt;</description>
     </item>
@@ -60,7 +67,7 @@
     <item>
       <title>Yealink</title>
       <link>https://cloudaware.eu/yealink/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://cloudaware.eu/yealink/</guid>
       <description></description>
     </item>
