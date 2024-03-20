@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sommatie on CloudAware Technical Consultancy</title>
+    <link>https://cloudaware.eu/tags/sommatie/</link>
+    <description>Recent content in sommatie on CloudAware Technical Consultancy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl</language>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cloudaware.eu/tags/sommatie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Juridisch</title>
+      <link>https://cloudaware.eu/yealink/juridisch/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://cloudaware.eu/yealink/juridisch/</guid>
+      <description>&lt;p&gt;Zowel Lydis als Yealink kiezen er op een gegeven moment voor om juridische dreigementen te uiten. Ook deze wil ik hier&#xA;graag behandelen. Het geeft een interessant inzicht in hoe de procedure is verlopen en ik hoop dat het toekomstige&#xA;beveiligingsonderzoekers kan helpen in hun werk.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
