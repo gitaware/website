@@ -226,3 +226,4 @@ regelmatige publicaties meer, tenzij er bijvoorbeeld iets nieuws te melden is.
 
 Voor de laatste keer tot volgende keer!
 
+[Naar het volgende artikel]({{< ref "conclusie" >}})
