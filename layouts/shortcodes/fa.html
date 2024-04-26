@@ -4,11 +4,4 @@
   {{ $faStylePrefix = (.Get 0) }}
 {{ end }}
 
-<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }}">
-  <!-- Load font awesome only once per page, load it inside the <i> element
-    so it does not disturb the text flow (like removing spaces) -->
-  {{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
-    {{ .Page.Scratch.Set "fontawesomeLoaded" true }}
-    <link href="{{ "fontawesome/css/all.min.css" | relURL }}" rel="stylesheet">
-  {{ end }}
-</i>
+<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }}"></i>
