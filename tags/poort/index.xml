@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>poort on CloudAware Technical Consultancy</title>
-    <link>https://cloudaware.eu/tags/poort/</link>
+    <link>https://trideeindhoven.github.io/website/tags/poort/</link>
     <description>Recent content in poort on CloudAware Technical Consultancy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl</language>
     <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cloudaware.eu/tags/poort/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://trideeindhoven.github.io/website/tags/poort/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Open poort</title>
-      <link>https://cloudaware.eu/yealink/open_poort/</link>
+      <link>https://trideeindhoven.github.io/website/yealink/open_poort/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cloudaware.eu/yealink/open_poort/</guid>
+      <guid>https://trideeindhoven.github.io/website/yealink/open_poort/</guid>
       <description>&lt;p&gt;Tijdens het onderzoek viel het op dat er een netwerkpoort open stond op Yealink devices. Het open staan van deze poort&#xA;kon ik niet verklaren en dus werden ook hier vragen over gesteld aan Yealink.&lt;/p&gt;</description>
     </item>
   </channel>
