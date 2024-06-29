@@ -1,4 +1,4 @@
-baseURL = 'https://cloudaware.eu/'
+baseURL = 'https://trideeindhoven.github.io/website/'
 title = "CloudAware Technical Consultancy"
 author = "Jeroen Hermans"
 languageCode = "nl"
@@ -19,7 +19,7 @@ enableRobotsTXT = true
 [params]
 
   showBlog = false
-  mainSections = ['yealink']
+  mainSections = ['yealink', 'blog']
 
   googleFonts = false
 
@@ -52,9 +52,9 @@ enableRobotsTXT = true
 [menu]
 
   [[menu.main]]
-    identifier = "yealink"
-    name = "Yealink"
-    url = "/yealink/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 1
 
   [[menu.main]]
@@ -70,10 +70,16 @@ enableRobotsTXT = true
     weight = 3
 
   [[menu.main]]
+    identifier = "spreker"
+    name = "Spreker"
+    url = "/spreker/"
+    weight = 4
+
+  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
 
   # Footer Menu
   [[menu.footer]]
