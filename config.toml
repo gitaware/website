@@ -1,4 +1,4 @@
-baseURL = 'https://trideeindhoven.github.io/website/'
+baseURL = 'https://cloudaware.eu'
 title = "CloudAware Technical Consultancy"
 author = "Jeroen Hermans"
 languageCode = "nl"
@@ -70,16 +70,10 @@ enableRobotsTXT = true
     weight = 3
 
   [[menu.main]]
-    identifier = "spreker"
-    name = "Spreker"
-    url = "/spreker/"
-    weight = 4
-
-  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 4
 
   # Footer Menu
   [[menu.footer]]
