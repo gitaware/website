@@ -3,7 +3,7 @@ Hash: SHA256
 
 Canonical: https://cloudaware.eu/.well-known/security.txt
 Canonical: https://www.cloudaware.eu/.well-known/security.txt
-Expires: 2024-12-01T23:00:01+00:00
+Expires: 2025-12-01T23:00:01+00:00
 # If you would like to report a security issue, please contact us at:
 Contact: mailto:j.hermans@cloudaware.eu
 Contact: tel:+31857828878
@@ -24,8 +24,8 @@ Encryption: https://cloudaware.eu/pgp.txt
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQR2HiQg/+5Wx8vY2fZS3SMwUweifAUCZb17owAKCRBS3SMwUwei
-fGQrAQCikjuqjsxYROIZfLlbx438yV92GZtSd83l1PzogFU4bgD/TguGw2f0179b
-Hgiq7VMOEYEZhCeHSPf18cOItaYeogA=
-=Ucjl
+iHUEARYIAB0WIQR2HiQg/+5Wx8vY2fZS3SMwUweifAUCZ4eYRAAKCRBS3SMwUwei
+fEMSAP40/do06Y6okTbOlcnjrSubc+QbMXhOawgdzGznclWHkgD+O4iIcuPfdHlE
+h8up2ZoHZPNWCH2FXjJ9jgcltnKVZQk=
+=wvMs
 -----END PGP SIGNATURE-----
