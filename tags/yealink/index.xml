@@ -4,7 +4,7 @@
     <title>Yealink on CloudAware Technical Consultancy</title>
     <link>https://cloudaware.eu/tags/yealink/</link>
     <description>Recent content in Yealink on CloudAware Technical Consultancy</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>nl</language>
     <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cloudaware.eu/tags/yealink/index.xml" rel="self" type="application/rss+xml" />
@@ -21,6 +21,13 @@
       <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
       <guid>https://cloudaware.eu/yealink/gesloten_openheid/</guid>
       <description>&lt;p&gt;Aangezien ik bezig ben met een aantal heel erg mooie zakelijke en privé projecten had ik niet verwacht om voor de zomervakantie weer opnieuw te gaan publiceren. Maar ik denk dat het goed is om toch nog even een korte tussen publicatie te maken.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yealink</title>
+      <link>https://cloudaware.eu/yealink/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://cloudaware.eu/yealink/</guid>
+      <description></description>
     </item>
     <item>
       <title>Conclusie</title>
@@ -119,13 +126,6 @@
       <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://cloudaware.eu/yealink/video_boodschap/</guid>
       <description>&lt;p&gt;Beste lezer. Welkom bij deze serie publicaties over mijn onderzoek naar Yealink en Lydis waar ik een jaar aan gewerkt heb.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Yealink</title>
-      <link>https://cloudaware.eu/yealink/</link>
-      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://cloudaware.eu/yealink/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
